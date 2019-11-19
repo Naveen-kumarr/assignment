@@ -1,0 +1,84 @@
+.custombackground
+{
+    background-image: url('../images/abstract-blue-curve-background_9634-17.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.customcard
+{
+    border-radius:10px;
+    color:#fff;
+    width: fit-content;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#0D1F47;
+    height: 70vh;
+    box-shadow: 20px -20px 3px 3px #495c86;
+}
+.cardParent
+{
+    position: relative;
+    height: 100vh;
+}
+@media only screen and (min-width:768px){
+    .text_parent
+    {
+        position: relative;
+        height: 100vh;
+    }
+    .custom_text
+    {
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
+@media only screen and (min-width:768px){
+.image_parent
+{
+    position: relative;
+        height: 100vh;
+}
+.custom_image
+{
+    position: relative;
+        top:50%;
+        transform: translateY(-50%);
+}
+}
+@media only screen and (max-width:500px){
+    .custom_image
+    {
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+input.cardInput{
+    width: 100%;
+    border: 0;
+    background-color:transparent;
+    padding: 12px 0;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+    border-bottom: 2px solid #ffff;
+
+  }
+  .custom_col
+  {
+      text-align: right;
+      padding-top: 15px;
+  }
+  .decoration
+  {
+      text-decoration: underline;
+  }
+  input:focus
+  {
+    outline-offset:unset!important;
+  }
+    
